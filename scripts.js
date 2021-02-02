@@ -2,10 +2,30 @@ const Modal = {
   open() {
     document.querySelector(".modal-overlay").classList.add("active");
   },
+
   close() {
     document.querySelector(".modal-overlay").classList.remove("active");
   },
 };
+
+const ModalExclusion = {
+  open(index){
+    document.querySelector(".background-exclusion").classList.add("active");
+    const modalExclusion = document.querySelector(".modal-exclusion");
+    modalExclusion.dataset.index = index;
+  },
+
+  close(){
+    document.querySelector(".background-exclusion").classList.remove("active");
+  },
+
+  delete() {
+    const modalExclusion = document.querySelector(".modal-exclusion");
+    const index = modalExclusion.dataset.index;
+    Transaction.remove(index);
+    ModalExclusion.close();
+  }
+}
 
 const Storage = {
   get() {
@@ -82,7 +102,7 @@ const DOM = {
       <td class="${CSSclass}">${amount}</td>
       <td class="date">${transaction.date}</td>
       <td>
-        <img onclick="Transaction.remove(${index})"  src="./assets/minus.svg" alt="Remover transação" />
+        <img onclick="ModalExclusion.open(${index})"  src="./assets/minus.svg" alt="Remover transação" />
       </td>
     `
     return html;
@@ -205,3 +225,5 @@ const App = {
 };
 
 App.init();
+
+//<img onclick="Transaction.remove(${index})"  src="./assets/minus.svg" alt="Remover transação" />
