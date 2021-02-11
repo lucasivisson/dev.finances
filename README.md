@@ -1,11 +1,12 @@
 # dev.finances
 
-This project is a simple expense control system designed to learn more about [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) and [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+This project is a simple expense control system designed to learn more about [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) and [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript).  Project developed during the Discover Marathon offered by [Rocketseat](https://rocketseat.com.br/). Discover Marathon is a week-long online mini course that provides practical content on programming and various challenges.
+ 
 
 ## Technologies
 
 This project was done using the [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) markup language, the [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) styling language and the [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
- programming language. Project developed during the Discover Marathon offered by [Rocketseat](https://rocketseat.com.br/). Discover Marathon is a week-long online mini course that provides practical content on programming and various challenges.
+ programming language.
  
 ## Getting Started
 
