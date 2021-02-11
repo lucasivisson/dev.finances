@@ -5,7 +5,7 @@ This project is a simple expense control system designed to learn more about [HT
 ## Technologies
 
 This project was done using the [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) markup language, the [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) styling language and the [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
- programming language.
+ programming language. Project developed during the Discover Marathon offered by [Rocketseat](https://rocketseat.com.br/). Discover Marathon is a week-long online mini course that provides practical content on programming and various challenges.
  
 ## Getting Started
 
@@ -14,6 +14,7 @@ This project was done using the [HTML](https://developer.mozilla.org/pt-BR/docs/
 
 ## Screenshots
 
+<img src='/screenshots/Screenshot from 2021-02-10 22-06-27.png' alt='Screenshot'>
 
 ## Contributing
 
